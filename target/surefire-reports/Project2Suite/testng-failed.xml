@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [Project2Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="methods" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.UITests">
+        <methods>
+          <include name="verifyGirlImages"/>
+          <include name="verifyFullFledgeText"/>
+          <include name="setup"/>
+          <include name="verifyLogo"/>
+          <include name="teardown"/>
+          <include name="verifyLeftArrow"/>
+          <include name="verifySrollUpArrow"/>
+          <include name="verifyRightArrow"/>
+          <include name="verifyHeaderElements"/>
+          <include name="verifySubTitles"/>
+          <include name="verifySubscription"/>
+        </methods>
+      </class> <!-- testcases.UITests -->
+      <class name="testcases.FunctionalTests">
+        <methods>
+          <include name="viewAndCartBrandProducts"/>
+          <include name="logoutUser"/>
+          <include name="verifyScrollUpWithoutArrowButtonAndScrollDown"/>
+          <include name="viewCategoryProducts"/>
+          <include name="verifyAddressInCheckoutPage"/>
+          <include name="setup"/>
+          <include name="logOut"/>
+          <include name="addReviewOnProducts"/>
+          <include name="registerUserWithExistingEmail"/>
+          <include name="verifyScrollUpUsingArrowButtonAndScrollDown"/>
+          <include name="registerUser"/>
+          <include name="validateProductsAndProductDetailPage"/>
+          <include name="addProductsInCart"/>
+          <include name="verifyProductQuantityInCart"/>
+          <include name="loginUserWithValidEmail"/>
+          <include name="placeOrderRegisterBeforeCheckout"/>
+          <include name="removeProducstFromCart"/>
+          <include name="downloadInvoiceAfterPurchaseOrder"/>
+          <include name="setupBeforeMethod"/>
+          <include name="loginUserWithInvalidEmailAndPassword"/>
+          <include name="placeOrderRegisterWhileCheckout"/>
+          <include name="verifySubscriptionInCartPage"/>
+          <include name="searchProductsAndVerifyCartAfterLogin"/>
+          <include name="validateTestCasePage"/>
+          <include name="placeOrderLoginBeforeCheckout"/>
+          <include name="teardown"/>
+          <include name="verifySubscriptionInHome"/>
+          <include name="searchProducts"/>
+          <include name="addToCartFromRecommendedItems"/>
+          <include name="submitContactUsForm"/>
+        </methods>
+      </class> <!-- testcases.FunctionalTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Project2Suite] -->

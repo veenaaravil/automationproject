@@ -1,0 +1,402 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 84, Failures: 30, Errors: 0, Skipped: 54, Time elapsed: 301.443 s <<< FAILURE! - in TestSuite
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 60.072 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 59.050
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 24.131 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.014 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.061 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.062 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.062 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.015 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.001 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.015 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.015 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.015 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+setupBeforeMethod(testcases.FunctionalTests)  Time elapsed: 0.016 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, get {url=https://automationexercise.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.setupBeforeMethod(FunctionalTests.java:68)
+
+verifyGirlImages(testcases.UITests)  Time elapsed: 0.035 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, isElementDisplayed {id=8489bf82-cd38-4af1-af35-b03847b6e749}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //img[@src='/static/images/home/girl2.jpg']]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifyGirlImages(UITests.java:86)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifyGirlImages(UITests.java:86)
+
+verifyRightArrow(testcases.UITests)  Time elapsed: 0.035 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, isElementDisplayed {id=2e9902b2-03cd-4e34-8101-ea8753d6b538}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //a[@href='#slider-carousel']/i[@class='fa fa-angle-left']]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifyRightArrow(UITests.java:74)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifyRightArrow(UITests.java:74)
+
+verifySubscriptionInCartPage(testcases.FunctionalTests)  Time elapsed: 13.547 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//i[@class='fa fa-home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.verifySubscriptionInCartPage(FunctionalTests.java:229)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.verifySubscriptionInCartPage(FunctionalTests.java:229)
+
+verifyHeaderElements(testcases.UITests)  Time elapsed: 13.578 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, getElementText {id=d681698b-2045-46ec-83bf-2f95bfd3caf8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //a[@href='/products']]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifyHeaderElements(UITests.java:150)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifyHeaderElements(UITests.java:150)
+
+verifySubTitles(testcases.UITests)  Time elapsed: 13.61 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, getElementText {id=b20ed616-b3bc-4690-8737-aacd1b2cfbee}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //h2[text()='Features Items']]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifySubTitles(UITests.java:203)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifySubTitles(UITests.java:203)
+
+verifySubscription(testcases.UITests)  Time elapsed: 13.625 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//h2[text()='Subscription']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifySubscription(UITests.java:121)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifySubscription(UITests.java:121)
+
+verifyLeftArrow(testcases.UITests)  Time elapsed: 13.657 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, isElementDisplayed {id=225502cf-d026-45bb-86ad-6e360bd1cc6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //a[@href='#slider-carousel']/i[@class='fa fa-angle-right']]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifyLeftArrow(UITests.java:64)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifyLeftArrow(UITests.java:64)
+
+verifyLogo(testcases.UITests)  Time elapsed: 13.689 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, isElementDisplayed {id=bd7aa1a3-24f6-469f-ac45-c41b4fb18821}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //img[@src='/static/images/home/logo.png']]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifyLogo(UITests.java:41)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifyLogo(UITests.java:41)
+
+verifyFullFledgeText(testcases.UITests)  Time elapsed: 13.706 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, getElementText {id=f5cc4a57-b56a-49f5-ba1b-4b1fef44329e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0b2ed6491f3b33c67f5fc92982b1b92f)] -> xpath: //img[@src='/static/images/home/girl2.jpg']/ancestor::div[@class='col-sm-6']/preceding-sibling::div//h2]
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifyFullFledgeText(UITests.java:53)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifyFullFledgeText(UITests.java:53)
+
+loginUserWithInvalidEmailAndPassword(testcases.FunctionalTests)  Time elapsed: 28.866 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//i[@class='fa fa-home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.loginUserWithInvalidEmailAndPassword(FunctionalTests.java:103)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.loginUserWithInvalidEmailAndPassword(FunctionalTests.java:103)
+
+verifySrollUpArrow(testcases.UITests)  Time elapsed: 28.867 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//i[@class='fa fa-angle-up']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.UITests.verifySrollUpArrow(UITests.java:133)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.UITests.verifySrollUpArrow(UITests.java:133)
+
+addReviewOnProducts(testcases.FunctionalTests)  Time elapsed: 37.742 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//i[@class='fa fa-home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.validateProductsAndProductDetailPage(FunctionalTests.java:179)
+	at testcases.FunctionalTests.addReviewOnProducts(FunctionalTests.java:512)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.validateProductsAndProductDetailPage(FunctionalTests.java:179)
+	at testcases.FunctionalTests.addReviewOnProducts(FunctionalTests.java:512)
+
+searchProductsAndVerifyCartAfterLogin(testcases.FunctionalTests)  Time elapsed: 47.096 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//i[@class='fa fa-home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.searchProductsAndVerifyCartAfterLogin(FunctionalTests.java:458)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.searchProductsAndVerifyCartAfterLogin(FunctionalTests.java:458)
+
+validateTestCasePage(testcases.FunctionalTests)  Time elapsed: 95.651 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+java.util.concurrent.TimeoutException
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b2ed6491f3b33c67f5fc92982b1b92f, findElement {using=xpath, value=//i[@class='fa fa-home']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\achun\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64629}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64629/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0b2ed6491f3b33c67f5fc92982b1b92f
+	at testcases.FunctionalTests.validateTestCasePage(FunctionalTests.java:164)
+Caused by: java.util.concurrent.TimeoutException
+	at testcases.FunctionalTests.validateTestCasePage(FunctionalTests.java:164)
+
